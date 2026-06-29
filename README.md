@@ -6,13 +6,9 @@ The work was developed in the context of the 2025/2026 second-semester internshi
 
 ## Project Overview
 
-The main objective of this project is to analyse how time series complexity influences forecasting errors. The study focuses primarily on the **Complexity Estimate (CE)**, defined as:
+The main objective of this project is to analyse how time series complexity influences forecasting errors. The study focuses primarily on the **Complexity Estimate (CE)**.
 
-[
-CE(x) = \sqrt{\sum_{t=2}^{T}(x_t - x_{t-1})^2}
-]
-
-where (x_t) denotes the value of the time series at time (t). In addition to CE, other complexity-related features are used to construct an instance space and to support the interpretation of forecasting performance across different regions of the feature space.
+In addition to CE, other complexity-related features are used to construct an instance space and to support the interpretation of forecasting performance across different regions of the feature space.
 
 The empirical analysis uses monthly time series and compares the performance of several forecasting approaches, including baselines, ARIMA models, and machine learning models.
 
